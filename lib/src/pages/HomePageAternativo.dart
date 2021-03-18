@@ -60,7 +60,7 @@ class HomePageAlternativo extends StatelessWidget {
               item['description'],
               style: TextStyle(fontFamily: 'Redressed'),
             ),
-            leading: Icon(item['icon'], color: item['color']),
+            leading: Icon(item['icon'], color: item['Color']),
             trailing: Icon(Icons.add_moderator, color: Colors.blue),
           ),
           Divider()
